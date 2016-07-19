@@ -14,7 +14,7 @@ if (!key || !secret) {
   console.log('2) Set your key environment variable with: export GOODREADS_KEY=yourkey');
   console.log('3) Set your secret environment variable with: export GOODREADS_SECRET=yoursecret');
   console.log('---');
-  console.log('Having trouble? Ask me at @bdickason on Twitter.');
+ 
   process.exit(1);
 }
 goodreads = require('goodreads')
@@ -48,9 +48,6 @@ gr.getSingleShelf({
 });
 
 });
-
-
-
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
