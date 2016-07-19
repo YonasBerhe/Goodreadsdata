@@ -11,7 +11,6 @@ if (!key || !secret) {
   console.log('You need to set your Goodreads dev Key and Secret!');
   console.log('---');
   console.log('1) Get them at:  http://www.goodreads.com/api/keys');
-  console.log('2) Set your key environment variable with: export GOODREADS_KEY=yourkey');
   console.log('3) Set your secret environment variable with: export GOODREADS_SECRET=yoursecret');
   console.log('---');
  
