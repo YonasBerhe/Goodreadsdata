@@ -1,6 +1,6 @@
 'use strict'
 
-let goodreads, http, key, onRequest, secret, url, express, gr, credentials, fs;
+let goodreads, http, key, secret, express, gr, credentials, fs;
 fs = require('fs');
 credentials = JSON.parse(fs.readFileSync('credentials.json', 'utf8'));
 
